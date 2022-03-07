@@ -12,6 +12,12 @@
 
 - 현재 directory
 
+### 이미지 생성
+
+```bash
+docker build -t kong-php-site .
+```
+
 ### 컨테이너 생성
 
 ```bash
