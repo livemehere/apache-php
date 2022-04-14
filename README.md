@@ -1,25 +1,15 @@
 # Apache + php 서버
 
-## Structure
+## 개발 환경만들기
 
-- [ ] mariadb 와함께 docker-compose 작성하기
-
-### Dockerfile
-
-- 단순히 php와 apache가 설치된 서버 이미지이다
-
-### Volume
-
-- 현재 directory
-
-### 이미지 생성
+### Image
 
 ```bash
-docker build -t kong-php-site .
+docker build -t php-apache-kong .
 ```
 
-### 컨테이너 생성
+### Container
 
 ```bash
-docker run -d -p 80:80 -v $(pwd):/var/www/html --name php-apache-server kong-php-site
+docker run -d --name kong-php-apache -p 80:80 -v `pwd`:/var/www/html php-apache-kong
 ```
