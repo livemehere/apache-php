@@ -30,8 +30,9 @@
                 <?php include ("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
-                <h3>박물관 소개<span>HOME>그리스박물관>그리스신화란?</span></h3>
-
+                <h3>박물관 소개 <div id="location">
+                        HOME &gt; 그리스신화박물관 &gt; <b>박물관소개</b> </div>
+                </h3>
                 <div id="contents">
 
                     <!--내용시작-->

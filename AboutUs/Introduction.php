@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="kor">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,11 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/sub/type.css">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-  
+
 </head>
+
 <body>
     <div id="wrap">
         <header>
@@ -18,14 +21,16 @@
         </header>
 
         <section id="slider">
-           <img src="../img/aboutus/sub_visual_bg.jpg" alt="">
+            <img src="../img/aboutus/sub_visual_bg.jpg" alt="">
         </section>
         <div id="sub_main">
             <aside id="left_menu">
-               <?php include ("left_menu.html"); ?>
+                <?php include ("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
-                <h3>박물관 소개<span>HOME>그리스박물관>박물관소개</span></h3>
+                <h3>박물관 소개<div id="location">
+                        HOME &gt; 그리스신화박물관 &gt; <b>박물관소개</b> </div>
+                </h3>
                 <article>
                     <img src="../img/aboutus/intro_pic.jpg" alt="">
 
@@ -53,7 +58,8 @@
         <footer>
             <?php include("../footer.html"); ?>
         </footer>
- </div>
-    
+    </div>
+
 </body>
+
 </html>
