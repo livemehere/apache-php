@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* foot_Layout (하단(카피라이트)인클루드 영역) */
+
+/******* 카피라이트********/
+
+#footer {
+  clear: both;
+  width: 100%;
+  background: #1a1a1a;
+  color: #6d6d6d;
+  font-size: 11px;
+}
+
+#foot {
+  position: relative;
+  width: 1000px;
+  padding: 43px 0 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#foot_logo {
+  padding-bottom: 30px;
+}
+
+#foot_menu {
+  margin-bottom: 12px;
+}
+
+#foot_menu li {
+  padding-right: 12px;
+  margin-right: 7px;
+  display: inline;
+  background: url("/image/default/common/foot_menu_line.gif") no-repeat right 3px;
+}
+
+#foot_menu li.end {
+  padding-right: 0;
+}
+
+#foot_menu li a {
+  color: #c2c2c2;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+#foot_info {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#foot_info address {
+  font-size: 11px;
+  font-weight: 800;
+  color: #6d6d6d;
+  padding-bottom: 5px;
+}
