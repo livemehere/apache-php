@@ -49,7 +49,7 @@
                     </div>
                 </article>
                 <article id="sub_contact">
-                    <div>
+                    <div class="foot_info">
                         <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
                     </div>
                 </article>

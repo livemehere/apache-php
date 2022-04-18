@@ -30,8 +30,8 @@
                 <?php include ("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
-                <h3>박물관 소개 <div id="location">
-                        HOME &gt; 그리스신화박물관 &gt; <b>박물관소개</b> </div>
+                <h3>그리스신화란? <div id="location">
+                        HOME &gt; 그리스신화박물관 &gt; <b>그리스신화란?</b> </div>
                 </h3>
                 <div id="contents">
 
@@ -57,7 +57,7 @@
                 </div>
                 <!-- 내용 끝 -->
                 <article id="sub_contact">
-                    <div>
+                    <div class="foot_info">
                         <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
                     </div>
                 </article>

@@ -144,7 +144,7 @@
 
 /*ie6 이하에서 적용(본문최하 높이)*/
 
-#sub_content .foot_info {
+#sub_contents .foot_info {
   float: right;
   width: 718px;
   background: #f9f9f9;
@@ -155,7 +155,7 @@
   color: #9c9c9c;
 }
 
-#sub_content .foot_info strong {
+#sub_contents .foot_info strong {
   margin-right: 10px;
   color: #494949;
 }

@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/sub/type.css">
     <link rel="stylesheet" href="../css/templates.css">
     <link rel="stylesheet" href="../css/content.css">
     <link rel="stylesheet" href="../css/board_basic_movie.css">
-    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="../css/sub/type.css">
 
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -37,7 +37,6 @@
                         <h3>홍보동영상<div id="location">
                                 HOME &gt; 그리스신화박물관 &gt; <b>홍보동영상</b> </div>
                         </h3>
-
                     </h3>
 
                     <div id="contents">
@@ -66,14 +65,10 @@
                                         <li><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyoutu.be%2FORSHkCL8YPI&amp;t=%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0+"
                                                 target="_blank" title="새창열림" class="none"><img
                                                     src="/image/default/Bd/skin/basic_movie/img/icon_share01_off.png"
-                                                    onmouseover="this.src=&quot;/image/default/Bd/skin/basic_movie/img/icon_share01_on.png&quot;;"
-                                                    onmouseout="this.src=&quot;/image/default/Bd/skin/basic_movie/img/icon_share01_off.png&quot;;"
                                                     alt="페이스북"></a></li>
                                         <li><a href="http://twitter.com/intent/tweet?text=%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0+&amp;url=https%3A%2F%2Fyoutu.be%2FORSHkCL8YPI"
                                                 target="_blank" title="새창열림" class="none"><img
                                                     src="/image/default/Bd/skin/basic_movie/img/icon_share02_off.png"
-                                                    onmouseover="this.src=&quot;/image/default/Bd/skin/basic_movie/img/icon_share02_on.png&quot;;"
-                                                    onmouseout="this.src=&quot;/image/default/Bd/skin/basic_movie/img/icon_share02_off.png&quot;;"
                                                     alt="트위터"></a></li>
                                     </ul>
                                 </div>
@@ -171,7 +166,7 @@
                     <!--contents end-->
                 </div>
                 <article id="sub_contact">
-                    <div>
+                    <div class="foot_info">
                         <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
                     </div>
                 </article>
