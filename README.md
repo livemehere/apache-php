@@ -1,3 +1,8 @@
+## 분석
+
+## 기본 뼈대 ex) AboutUs 그리스신화박물관 에시
+
+```html
 <!DOCTYPE html>
 <html lang="kor">
 
@@ -33,10 +38,10 @@
                 <article id="sub_text">
                     <div>
                         <h2>유럽에 가지 않고 유럽 박물관을 만난다.</h2>
-                        <p class="tm-light-gray">그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p>
-                        <p class="tm-gray-divide tm-light-gray">상상력과 창의력의 뿌리,3000년 역사의 지혜이자 현대인의 필수 교양인문인 그리스신화.</p><br>
+                        <p>그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p>
+                        <p class="tm-gray_divide">상상력과 창의력의 뿌리,3000년 역사의 지혜이자 현대인의 필수 교양인문인 그리스신화.</p><br>
                         <p>상상력과 창의력의 뿌리, 3000년 역사의 지혜이자 현대인의 필수 교양인문인 그리스신화.</p></br>
-                        <p class="tm-bold-blue">'세계최초'제주에서 만나는 신개념의 그리스신화박물관!</p>
+                        <p class="tm-bold_blue">'세계최초'제주에서 만나는 신개념의 그리스신화박물관!</p>
                         <p>루브르, 바티칸 박물관 명화와 대리석 조각상으로 200여점 재현!</p><br>
                         <p>관람객 모두가 그리스인으로 변신하는 '리틀그리스'</p>
                         <p>그리스 신화를 주제로 한 트릭아이 작품과 함께 아테나 여신, 헤라클래스 등</p>
@@ -58,3 +63,4 @@
 </body>
 
 </html>
+```

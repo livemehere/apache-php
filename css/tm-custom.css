@@ -1,0 +1,40 @@
+/* Custom */
+:root {
+  --light-gray: rgb(168, 168, 168);
+  --blue: #5982af;
+}
+
+.mt-1 {
+  margin-top: 1em !important;
+}
+.mt-2 {
+  margin-top: 2em !important;
+}
+.mt-3 {
+  margin-top: 3em !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+.text-bold {
+  font-weight: 500 !important;
+}
+
+/* AboutUs/Introduction.php */
+
+.tm-gray-divide {
+  color: #bbb;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 30px;
+}
+.tm-bold-blue {
+  color: royalblue !important;
+  font-weight: bold !important;
+}
+
+.tm-light-gray {
+  color: var(--light-gray) !important;
+}
