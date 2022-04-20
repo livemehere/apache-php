@@ -1,171 +1,264 @@
-*{
-    margin:0;
-    padding:0;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
-#wrap{
-    width:100%;
+/* tag Definition */
+address {
+  font-style: normal;
+  display: block;
+  color: #575757;
+} /* 주소 */
+cite {
+  display: block;
+  font-style: normal;
+} /* 인용문 */
+del {
+  text-decoration: line-through;
+} /* 삭제 */
+strong {
+  font-weight: bold;
+} /* 강조 */
+em {
+  font-style: normal;
+} /* 강조 */
+dfn {
+  font-style: normal;
+} /* 정의 - 용어설명 */
+cite {
+  font-style: normal;
+} /* 인용출처 */
+blockquote {
+  margin: 0;
+  padding: 0;
+} /* 인용block */
+sup {
+  font-size: 0.92em;
+} /* 위첨자 */
+sub {
+  font-size: 0.92em;
+} /* 아래첨자 */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-header{
-    width:100%;
+legend {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
 }
-header > #head{
-    width:1024px;
-    margin: 20px auto;
-    position: relative;
-    /*border: 1px solid red; */
+hr {
+  display: none;
+} /* 수평선 - 레이아웃구분용 */
+form,
+blockquote,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
 }
-header > #head > #logo > a > img{
-    margin:20px auto;
-    display: block;
+img,
+input.type-image {
+  border: 0 none;
 }
-header #head #top_menu{
-    position: absolute;
-    top:15px;
-    right:0;
+optgroup label {
+  font-style: normal;
+  font-weight: normal;
 }
-header #head #top_menu ul{
-    overflow: hidden;
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
 }
-header #head #top_menu ul li{
-    padding:0 10px;
-    float: left;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #666;
-    border-right: 1px solid #666; 
+noscript {
+  display: none;
 }
-header #head #top_menu ul li a{
-    font-size: 10px;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
-header #head #top_menu ul li:last-child{
-    border-right: 1px solid white;
+a:hover {
+  cursor: pointer;
 }
-header #head #top_menu ul li a:hover{
-    font-weight: bold;
+/*INPUT*/
+textarea {
+  border: 1px solid #e1e1e1;
+  line-height: 140%;
+  width: 98%;
 }
-header #head #top_menu ul li a:link{
-    text-decoration: none;
+input,
+select,
+textarea {
+  vertical-align: middle;
+  font-size: 1em;
+  color: #575757;
+  font-family: "맑은 고딕", "돋움", "굴림", sans-serif;
 }
-header #head #top_menu ul li a:visited{
-    color: #666;;
-}
-header .header_shadow{
-    border-bottom: 1px solid #ccc;
-}
-header #main_menu{
-    width:100%;
-}
-header #main_menu > ul{
-    position: relative;
-    text-align: center;
-    margin: 10px 0;
- 
-}
-header #main_menu ul li{
-    display: inline;
-}
-header #main_menu > ul > li > a{
-    margin: 0;
-    padding: 10px 40px;
-    text-align: center;
-    color: #333;
 
+/* -----시작------ */
+#wrap {
+  width: 100%;
 }
-header #main_menu > ul > li > a :visited{
-    color:#333;
+header {
+  width: 100%;
+}
+header > #head {
+  width: 1024px;
+  margin: 20px auto;
+  position: relative;
+  /*border: 1px solid red; */
+}
+header > #head > #logo > a > img {
+  margin: 20px auto;
+  display: block;
+}
+header #head #top_menu {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+header #head #top_menu ul {
+  overflow: hidden;
+}
+header #head #top_menu ul li {
+  padding: 0 10px;
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #666;
+  border-right: 1px solid #666;
+}
+header #head #top_menu ul li a {
+  font-size: 10px;
+}
+header #head #top_menu ul li:last-child {
+  border-right: 1px solid white;
+}
+header #head #top_menu ul li a:hover {
+  font-weight: bold;
+}
+header #head #top_menu ul li a:link {
+  text-decoration: none;
+}
+header #head #top_menu ul li a:visited {
+  color: #666;
+}
+header .header_shadow {
+  border-bottom: 1px solid #ccc;
+}
+header #main_menu {
+  width: 100%;
+}
+header #main_menu > ul {
+  position: relative;
+  text-align: center;
+  margin: 10px 0;
+}
+header #main_menu ul li {
+  display: inline;
+}
+header #main_menu > ul > li > a {
+  margin: 0;
+  padding: 10px 40px;
+  text-align: center;
+  color: #333;
+}
+header #main_menu > ul > li > a :visited {
+  color: #333;
 }
 header #main_menu > ul > li:hover > a {
-    background-color: #6d7d8d;
-    color: white;
- 
+  background-color: #6d7d8d;
+  color: white;
 }
-header #main_menu > ul > li > .sub_menu
-{
-    position:absolute;
-    left:0;
-    top:30px;
-    width:100%;
-    display: none;
-    background-color:  rgba(46,61,80,0.5);/* #2e3d50; */
-    z-index: 3;
+header #main_menu > ul > li > .sub_menu {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  display: none;
+  background-color: rgba(46, 61, 80, 0.5); /* #2e3d50; */
+  z-index: 3;
 }
 header #main_menu > ul > li:hover .sub_menu {
-    display: block;
- }
-header #main_menu > ul > li:hover .sub_menu a {
-    color:white;
+  display: block;
 }
-header #main_menu > ul > li > .sub_menu li a{
+header #main_menu > ul > li:hover .sub_menu a {
+  color: white;
+}
+header #main_menu > ul > li > .sub_menu li a {
   padding: 10px 20px;
   display: inline-block;
   text-align: center;
 }
-header #main_menu > ul > li > .sub_menu li a:hover{
-    color:#ccc;
+header #main_menu > ul > li > .sub_menu li a:hover {
+  color: #ccc;
 }
 
-header #quick_menu{
-   position: fixed;
-   right:0;
-   top:200px;
-   z-index: 3;
+header #quick_menu {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  z-index: 3;
 }
-header #quick_menu img{
-    display: block;
+header #quick_menu img {
+  display: block;
 }
-footer{
-    margin:60px 0 40px 0;			
-    width:100%;
-    background-color: #151515;	
+footer {
+  margin: 60px 0 40px 0;
+  width: 100%;
+  background-color: #151515;
 }
 footer #foot {
-    margin:0 auto;
-    width:100%;
-    overflow: hidden;
-    text-align: center;
-    padding: 20px 0;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px 0;
 }
 
 footer #foot img {
-    margin: 30px;
+  margin: 30px;
 }
-footer #foot ul{
-    margin: 0 auto;
+footer #foot ul {
+  margin: 0 auto;
 }
-footer #foot #foot_menu li{
-    display: inline;
-    padding:0;
-    margin:0;
+footer #foot #foot_menu li {
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
-footer #foot #foot_menu li a{
-    margin: 0;
-    padding: 0 10px;
-    border-right: 1px solid #666;
+footer #foot #foot_menu li a {
+  margin: 0;
+  padding: 0 10px;
+  border-right: 1px solid #666;
 }
-footer #foot #foot_menu li:last-child a{
-    border-right: 1px solid #151515;
+footer #foot #foot_menu li:last-child a {
+  border-right: 1px solid #151515;
 }
-footer #foot #foot_menu li a{
-    text-decoration: none;
-    font-size: 10px;
-    font-weight: bold;
-    color: #F2F2F2;			
+footer #foot #foot_menu li a {
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  color: #f2f2f2;
 }
 footer #foot #contact {
-    clear: both;
-    margin:10px 0;
+  clear: both;
+  margin: 10px 0;
 }
 footer #foot #contact li {
-    font-size:10px;
-    font-weight: bold;
-    margin:5px 0;
-    color: #888;
-    
+  font-size: 10px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #888;
 }
-footer #foot #contact li span{
-    margin: 0 10px;
+footer #foot #contact li span {
+  margin: 0 10px;
 }
