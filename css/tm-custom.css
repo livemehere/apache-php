@@ -527,3 +527,86 @@ ul.modifyBtn {
 .mgr20 {
   margin-right: 20px;
 }
+
+/* 관람안내 */
+/* 테이블 */
+table.tstyle {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.3em 0 0.5em 0px;
+  border: solid #4a77a6;
+  border-width: 2px 0 0 0;
+}
+table.tstyle caption {
+  text-indent: -2000px;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+table.tstyle th,
+table.tstyle td {
+  padding: 6px;
+  line-height: 140%;
+}
+table.tstyle th {
+  background-color: #c2c9d2;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #e6e6e6;
+}
+
+table.tstyle tbody th {
+  background: #f7f7f7;
+  font-weight: 800;
+  color: #575757;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+}
+table.tstyle td {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+h4.tmg {
+  margin: 1.5em 0 0.4em 0;
+}
+ul.con01 {
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: left;
+  line-height: 140%;
+  color: #666;
+}
+
+/* Tag목록(List) */
+ul.con01 {
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: left;
+  line-height: 140%;
+}
+ul.con01 li {
+  margin: 0;
+  padding: 0 0 7px 13px;
+  background: url("http://www.greekmythology.co.kr/default/_template/image/default/img/bullet_list01.gif") no-repeat 0
+    6px;
+  clear: left;
+}
+
+h4 {
+  clear: left;
+  margin: 0.4em 0;
+  padding: 0.15em 0 0 0;
+  background: url("http://www.greekmythology.co.kr/default/_template/image/default/img/bullet_h4.gif") no-repeat 0 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 130%;
+}
