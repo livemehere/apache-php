@@ -20,7 +20,7 @@
             <?php include("../header.html"); ?>
         </header>
         <section id="slider">
-            <img src="../img/aboutus/sub_visual_bg.jpg" alt="">
+            <img src="../img/exhibition/sub_visual_bg.jpg" alt="">
         </section>
         <div id="sub_main">
             <aside id="left_menu">
