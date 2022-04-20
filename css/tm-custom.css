@@ -342,3 +342,56 @@
 .boardListForm tr:hover td {
   background-color: #f9f9f9;
 }
+
+/* 자주하는 질문 */
+
+/* 리스트 */
+#faqListBody {
+  position: relative;
+  clear: both;
+  float: none;
+  border: 0;
+  font-size: 0.8em;
+}
+.faqList {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 8px 5px 5px;
+}
+#faqListBody dt {
+  padding: 0 7px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 12px;
+}
+#faqListBody dt img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#faqListBody dl.faq_a {
+  padding: 0 7px;
+  word-break: break-all;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+}
+#faqListBody dl.faq_a dt {
+  float: left;
+  width: 20px;
+  background: none;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #f60;
+  padding: 7px 0;
+}
+#faqListBody dl.faq_a dd.jn_answer {
+  margin-left: 30px;
+  padding: 7px 0;
+}
+ul.modifyBtn {
+  clear: both;
+  float: none;
+  text-align: right;
+  margin-bottom: 20px;
+}
