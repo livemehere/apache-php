@@ -4,6 +4,13 @@
   --blue: #5982af;
 }
 
+a,
+a:link {
+  color: #575757;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .mt-1 {
   margin-top: 1em !important;
 }
@@ -416,4 +423,62 @@ ul.modifyBtn {
 
 .boardBtn {
   text-align: right;
+}
+
+/* 이벤트 */
+
+/* 이벤트*/
+#event_list {
+  float: left;
+  border-top: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  margin-top: 10px;
+}
+#event_list li {
+  float: left;
+  width: 212px;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px;
+  min-height: 345px;
+}
+#event_list li h5 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 14px;
+  letter-spacing: -0.6px;
+}
+#event_list li .pic {
+  margin-bottom: 15px;
+}
+#event_list li .pic img {
+  width: 211px;
+}
+#event_list li p {
+  font-size: 12px;
+  margin: 0;
+}
+#event_list li .ing {
+  padding: 10px 0;
+  margin-top: 15px;
+  background: #84aad1;
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+}
+#event_list li .end {
+  padding: 10px 0;
+  margin-top: 15px;
+  background: #f3f3f3;
+  text-align: center;
+  font-weight: 800;
+}
+#event_list li .ing a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+#event_list li .end a {
+  display: block;
+  text-decoration: none;
 }

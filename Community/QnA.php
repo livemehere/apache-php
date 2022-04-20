@@ -140,7 +140,6 @@
                                 <td class="jn_vCount">1533</td>
                             </tr>
                             <tr>
-
                                 <td class="jn_num">27</td>
                                 <td class="jn_title"><a href="#" title="다자녀할인이 있는지 알고 싶습니다.">다자녀할인이 있는지 알고 싶…</a> <img
                                         src="http://www.greekmythology.co.kr/default/Bd/img/hot.gif" class="new"></td>
