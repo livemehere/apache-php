@@ -49,3 +49,86 @@
 }
 
 /* 홍보동영상 */
+
+.page-nation {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.page-nation strong {
+  background: #5982af;
+  border: 1px solid #4a77a6;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  height: 22px;
+  line-height: 23px;
+  text-align: center;
+  vertical-align: middle;
+  width: 22px;
+}
+
+/* 블로거 */
+.boardBody {
+  width: 100%;
+  margin-bottom: 100px;
+  min-height: 350px;
+}
+.boardBody input,
+.boardBody select,
+.boardBody textarea {
+  font-size: 12px;
+}
+.boardBody input:focus,
+.boardBody textarea:focus {
+  border: 1px solid #036;
+}
+
+/* 블로거와 함께하는 */
+.blog_list {
+  margin-bottom: 50px;
+}
+.blog_list .pic {
+  position: relative;
+  float: left;
+  width: 210px;
+  height: 139px;
+  overflow: hidden;
+}
+.blog_list .pic img {
+  width: 210px;
+}
+.blog_list .con {
+  margin-left: 240px;
+  background: url("http://www.greekmythology.co.kr/default/_template/image/default/01/blog_line.gif") no-repeat left top;
+  padding: 20px 10px;
+  border-bottom: 1px solid #e6e6e6;
+  height: 100px;
+}
+.blog_list .con h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #5982af;
+  font-weight: 800px;
+  display: inline;
+}
+.blog_list .con h4 a {
+  color: #5982af;
+}
+.blog_list .con p {
+  color: #9b9b9b;
+  font-size: 13px;
+  padding: 15px 0;
+}
+
+.button_greek {
+  background: #5982af;
+  color: #fff;
+  text-align: center;
+  padding: 4px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #5982af;
+  cursor: pointer;
+}

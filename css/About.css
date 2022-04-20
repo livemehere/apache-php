@@ -42,7 +42,6 @@
 /* -----------------------홍보동영상----------------------- */
 #board_movie {
   width: 100%;
-  float: left;
   margin-bottom: 50px;
 }
 #board_movie #view {

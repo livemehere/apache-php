@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/tm-custom.css">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
@@ -26,6 +27,7 @@
                 <?php include ("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
+                <h3>홍보동영상<span>HOME>그리스박물관><b>홍보동영상</b></span></h3>
                 <div id="board_movie">
                     <!-- view 시작 -->
                     <div id="view">
@@ -45,12 +47,12 @@
                                 <div class="text_blur"></div>
                             </div>
                             <div class="share">
-                                <h5>Share Movie</h5>
+                                <h5 class="text-blue">Share Movie</h5>
                                 <ul>
-                                    <li><a href="#" target="_blank" title="새창열림" class="none"><img
+                                    <li><a href="#"><img
                                                 src="http://www.greekmythology.co.kr/default/Bd/skin/basic_movie/img/icon_share01_off.png"
                                                 alt="페이스북"></a></li>
-                                    <li><a href="#" target="_blank" title="새창열림" class="none"><img
+                                    <li><a href="#"><img
                                                 src="http://www.greekmythology.co.kr/default/Bd/skin/basic_movie/img/icon_share02_off.png"
                                                 alt="트위터"></a></li>
                                 </ul>
@@ -106,6 +108,14 @@
                         </li>
                     </ul>
                     <!-- list 끝 -->
+                </div>
+                <!-- 페이지 버튼 -->
+                <div class="page-nation">
+                    <img src="http://www.greekmythology.co.kr/default/Bd/skin/basic/img/prebtn.gif" alt="이전"
+                        align="absmiddle">
+                    <span style="padding:0 5px 0 3px;"><strong>1</strong> </span>
+                    <img src="http://www.greekmythology.co.kr/default/Bd/skin/basic/img/nextbtn.gif" alt="다음"
+                        align="absmiddle">
                 </div>
                 <article id="sub_contact">
                     <div>
