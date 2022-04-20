@@ -38,3 +38,193 @@
   font-weight: normal;
   color: #777;
 }
+
+/* -----------------------홍보동영상----------------------- */
+#board_movie {
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+#board_movie #view {
+  height: 300px;
+  display: flex;
+}
+#board_movie .view_on {
+  margin-right: 10px;
+  overflow: hidden;
+  flex: 1;
+}
+#board_movie .view_on iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#board_movie .view_text {
+}
+
+#board_movie .view_text a {
+  color: gray;
+}
+#board_movie .view_text a:hover {
+  text-decoration: underline;
+}
+
+#board_movie .view_text h5.new {
+  padding: 8px 53px 9px 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #69ccc1;
+  font-weight: bold;
+}
+#board_movie .view_text h5.none {
+  padding: 8px 10px 9px 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #343d46;
+  font-weight: bold;
+}
+#board_movie .view_text .icon_new {
+  position: absolute;
+  z-index: 100;
+  width: 33px;
+  right: 7px;
+  top: -3px;
+}
+#board_movie .view_text .paragraph_box {
+  height: 205px;
+  width: 237px;
+  padding: 10px 13px 0 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #d9d9d9;
+}
+#board_movie .view_text .paragraph_box p {
+  margin: 10px 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#board_movie .share {
+  width: 240px;
+  height: 47px;
+  margin-top: 0px;
+  position: relative;
+  border-bottom: 1px solid #d9d9d9;
+}
+#board_movie .share h5 {
+  padding: 18px 20px;
+  border-right: 1px solid #d9d9d9;
+  float: left;
+}
+#board_movie .share ul {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: -2px;
+  right: 0px;
+  width: 120px;
+}
+#board_movie .share li {
+  float: left;
+  margin-left: 20px;
+}
+
+/* 리스트 */
+#board_movie #list {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding: 0;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#board_movie #list li.end {
+  border-right: none;
+}
+#board_movie #list li {
+  height: 370px;
+  position: relative;
+  margin: 0;
+  border-right: 1px solid #ddd;
+}
+#board_movie .movie_frame {
+  height: 370px;
+  width: 252px;
+  position: absolute;
+  z-index: 10;
+  background: url(http://www.greekmythology.co.kr/default/Bd/skin/basic_movie/img/movieframe_off.png) 0 0 no-repeat;
+  cursor: pointer;
+}
+#board_movie .movie_frame_on {
+  height: 370px;
+  width: 252px;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  background: url(http://www.greekmythology.co.kr/default/Bd/skin/basic_movie/img/movieframe_on.png) 0 0 no-repeat;
+}
+#board_movie .movie_frame:hover {
+  background: url(http://www.greekmythology.co.kr/default/Bd/skin/basic_movie/img/movieframe_on.png) 0 0 no-repeat;
+}
+
+#board_movie #list dl {
+  text-align: center;
+  margin: 285px 25px 0 25px;
+}
+#board_movie #list dl a {
+  color: #575757;
+}
+#board_movie #list dt {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 7px 0;
+}
+
+#board_movie #list dd {
+  font-size: 13px;
+  color: #7d7d7d;
+}
+#board_movie #list dd a {
+  color: #7d7d7d;
+}
+
+#board_movie #page {
+  margin: 0 auto;
+  width: 540px;
+  clear: both;
+}
+#board_movie #page span {
+  float: left;
+}
+#board_movie #page ol {
+  float: left;
+  display: block;
+  margin: 0 60px;
+  padding: auto;
+}
+#board_movie #page ol li {
+  list-style: none;
+  float: left;
+  margin: 7px 5px;
+}
+#board_movie #page ol li a {
+  color: #909090;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 21px;
+}
+#board_movie #page ol li.select {
+  color: #ff8a01;
+  font-size: 17px;
+  margin: 3px 5px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#board_movie .btn_list {
+  float: right;
+}
+#board_movie .btn_list li {
+  float: left;
+  padding: 3px;
+}

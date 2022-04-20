@@ -31,7 +31,7 @@
   color: #888;
 }
 
-/* AboutUs/Introduction.php */
+/* 그리스 신화란? */
 
 .tm-gray-divide {
   color: #bbb;
@@ -47,3 +47,5 @@
 .tm-light-gray {
   color: var(--light-gray) !important;
 }
+
+/* 홍보동영상 */
