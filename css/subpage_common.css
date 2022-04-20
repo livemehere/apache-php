@@ -1,5 +1,8 @@
 section#slider {
-  overflow: hidden !important;
+  /* overflow: hidden !important; */
+}
+section#slider img {
+  width: 100%;
 }
 
 #image_slider {

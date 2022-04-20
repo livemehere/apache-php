@@ -42,6 +42,7 @@
 div#slider {
   overflow: hidden;
 }
+
 div#slider figure img {
   width: 20%;
   float: left;
