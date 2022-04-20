@@ -28,7 +28,7 @@
             </aside>
             <section id="sub_contents">
                 <h3>그리스신화란?<span>HOME>그리스박물관><b>그리스신화란?</b></span></h3>
-                <article id="sub_text">
+                <article id="sub_text" class='mt-2'>
                     <div>
                         <h2>그리스신화란?</h2>
                         <p class="tm-light-gray tm-gray-divide">그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p>
@@ -36,18 +36,17 @@
                         </p>
                         <p>수 천 년이 지난 지금도 전 세계적으로 널리 읽히고 있는 것은 이야기 속에 교훈과 감동이 시대를 초월해서 담겨 있기 때문입니다.</p>
                         <p>또한 그리스신화를 통해 우리는 서구문화를 이해하고 철학과 심리학, 인문학적 화두를 들여다 볼 수 있습니다.</p><br>
-                        <p>관람객 모두가 그리스인으로 변신하는 '리틀그리스'</p>
-                        <p>그리스 신화를 주제로 한 트릭아이 작품과 함께 아테나 여신, 헤라클래스 등</p>
-                        <p>신화 속 주인공이 되어보는 새로운 예술 체험!</p><br>
-                        <p>서양문명의 근원이 되는 그리스신화를 직접 체험하면서 자연스럽게 익힐 수 있습니다.</p>
                     </div>
                 </article>
                 <article>
-                    <img src="../img/aboutus/intro_pic.jpg" alt="">
+                    <img src="http://www.greekmythology.co.kr/default/_template/image/default/01/greek_pic.jpg" alt="">
                 </article>
                 <article>
-                    <img src="../img/aboutus/intro_pic.jpg" alt="">
+                    <img src="http://www.greekmythology.co.kr/default/_template/image/default/01/greek_img01.jpg"
+                        alt="">
                 </article>
+                <h1 class="h-center">자! 이제 <span class="text-blue">그리스신화</span>를 통해 <span class="text-black">무한한 상상의
+                        세계</span>로 빠져 볼까요?</h1>
                 <article id="sub_contact">
                     <div>
                         <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>

@@ -17,9 +17,18 @@
 .text-blue {
   color: var(--blue) !important;
 }
+.text-black {
+  color: black !important;
+}
 
 .text-bold {
   font-weight: 500 !important;
+}
+
+.h-center {
+  text-align: center;
+  font-weight: normal;
+  color: #888;
 }
 
 /* AboutUs/Introduction.php */

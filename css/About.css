@@ -12,8 +12,9 @@
   color: #333;
   font-weight: 500;
 }
+/* FIXME: 박스 width */
 #sub_main #sub_text div p {
-  width: 80%;
+  width: 90%;
   margin: 5px auto;
   text-align: center;
   font-size: small;
