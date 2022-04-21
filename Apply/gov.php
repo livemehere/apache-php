@@ -171,7 +171,7 @@
                             <div class="job_list_top">
                                 <span>검색건수:</span>
                                 <span class="total">총 10건</span>
-                                <span class="position" style="float:right;"><strong>1</strong>/9691 page</span>
+                                <span class="position" style="float:right;"><strong>1</strong>/1 page</span>
                             </div>
 
                             <div class="job_list">
