@@ -177,7 +177,7 @@
                             <!-- pc 채용리스트 -->
                             <div class="job_list_top">
                                 <span>검색건수:</span>
-                                <span class="total">총 96902건</span>
+                                <span class="total">총 10건</span>
                                 <span class="position" style="float:right;"><strong>1</strong>/9691 page</span>
                             </div>
 
@@ -203,12 +203,15 @@
                                         </thead>
 
                                         <tbody>
-                                            <tr onclick="view('K140022204210004');" style="cursor: pointer;">
+                                            <?php
+                                                for($i=0;$i<10;$i++){
+                                                    echo '
+                                                    <tr style="cursor: pointer;">
                                                 <td>(주)정림</td>
 
                                                 <td class="job_info">
                                                     <div>
-                                                        <a href="#" onclick="view('K140022204210004');">
+                                                        <a href="#">
                                                             <p class="job_title">품질및납품기사(프레스자동차부품) 모집</p>
                                                             <ul>
                                                                 <li>
@@ -228,333 +231,34 @@
 
                                                     22-05-20</td>
                                             </tr>
-
-                                            <tr onclick="view('K131162204210003');" style="cursor: pointer;">
-                                                <td>영진기계(주)</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K131162204210003');">
-                                                            <p class="job_title">도장,도색 유경험자 구인모집합니다.</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">월급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">330만원 ~ 370만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">경남 창녕군</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>경력</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    채용시까지<br> 22-06-19</td>
-                                            </tr>
-
-                                            <tr onclick="view('K161322204210003');" style="cursor: pointer;">
-                                                <td>꼬꼬어린이집</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K161322204210003');">
-                                                            <p class="job_title">야간연장반 교사를 구합니다</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">월급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">180만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">전북 군산시</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 대졸(2~3년)<br>경력</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    채용시까지<br> 22-06-19</td>
-                                            </tr>
-
-                                            <tr onclick="view('K171222204210005');" style="cursor: pointer;">
-                                                <td>(주)케이씨필</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K171222204210005');">
-                                                            <p class="job_title">산업용필터 제조업 생산직 모집</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">시급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">9160원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">충북 충주시</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>신입</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    22-05-10</td>
-                                            </tr>
-
-                                            <tr onclick="view('K162232204210003');" style="cursor: pointer;">
-                                                <td>씨에스주식회사</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K162232204210003');">
-                                                            <p class="job_title">전동공구 수리 가능자 (전기,전자 설비 조작원) ...</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">월급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">250만원 ~ 300만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">전남 여수시</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>경력</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    채용시까지<br> 22-06-19</td>
-                                            </tr>
-
-                                            <tr onclick="view('K131162204210002');" style="cursor: pointer;">
-                                                <td>세홍산업</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K131162204210002');">
-                                                            <p class="job_title">세홍산업 가족 모십니다.</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">시급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">11000원 ~ 11000원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">경남 창녕군</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>관계없음</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    22-05-05</td>
-                                            </tr>
-
-                                            <tr onclick="view('K130112204210012');" style="cursor: pointer;">
-                                                <td>재광건설(주)</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K130112204210012');">
-                                                            <p class="job_title">토목기사님 구합니다.</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">연봉</span>
-                                                                    <span class="type2">주6일근무</span>
-                                                                    <span class="type3">3500만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">부산 기장군</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>관계없음</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    채용시까지<br> 22-06-19</td>
-                                            </tr>
-
-                                            <tr onclick="view('K140022204210003');" style="cursor: pointer;">
-                                                <td>대동전산폼주식회사</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K140022204210003');">
-                                                            <p class="job_title">영업부 사원 모집(납품병행)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">시급</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">9160원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">대구 달서구</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 고졸<br>신입</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    22-05-05</td>
-                                            </tr>
-
-                                            <tr onclick="view('K162232204210002');" style="cursor: pointer;">
-                                                <td>씨에스주식회사</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K162232204210002');">
-                                                            <p class="job_title">플랜트 관련 품질관리자 구인(도약장려금)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">연봉</span>
-                                                                    <span class="type2">주5일근무</span>
-                                                                    <span class="type3">4000만원 ~ 6000만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">전남 여수시</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 학력무관<br>경력</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    채용시까지<br> 22-06-19</td>
-                                            </tr>
-
-                                            <tr onclick="view('K150012204210005');" style="cursor: pointer;">
-                                                <td>대양로프시스템</td>
-
-                                                <td class="job_info">
-                                                    <div>
-                                                        <a href="#" onclick="view('K150012204210005');">
-                                                            <p class="job_title">시공 모집(금속물설치)</p>
-                                                            <ul>
-                                                                <li>
-                                                                    <span class="type1 type1_4">월급</span>
-                                                                    <span class="type2">주6일근무</span>
-                                                                    <span class="type3">270만원 ~ 350만원</span>
-                                                                </li>
-                                                                <li class="bar"></li>
-                                                                <li class="area">인천 남동구</li>
-                                                            </ul>
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td class="list_hidden"> 고졸<br>관계없음</td>
-                                                <td class="list_hidden">22-04-21</td>
-                                                <td class="list_hidden">
-
-                                                    22-05-10</td>
-                                            </tr>
-
-
+                                                    ';
+                                                }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
 
-
-
-
-
                             <div class="pagination">
-
-
                                 <a href="#" class="prev"><img src="https://jobs.kmu.ac.kr/job/images/icon_prev.png"
                                         alt=""></a>
+                                <a href="#" class="btn cur">1</a>
 
+                                <a href="#" class="btn">2</a>
 
-                                <a href="#" class="btn cur" onclick="javascript:pageing('1')">1</a>
+                                <a href="#" class="btn">3</a>
 
-                                <a href="#" class="btn" onclick="javascript:pageing('2')">2</a>
+                                <a href="#" class="btn">4</a>
 
-                                <a href="#" class="btn" onclick="javascript:pageing('3')">3</a>
-
-                                <a href="#" class="btn" onclick="javascript:pageing('4')">4</a>
-
-                                <a href="#" class="btn" onclick="javascript:pageing('5')">5</a>
-
+                                <a href="#" class="btn">5</a>
 
                                 <a href="#" class="next" onclick="javascript:block('2')"><img
                                         src="https://jobs.kmu.ac.kr/job/images/icon_next.png" alt=""></a>
 
 
                             </div>
-
-
-
-
-
-                            <script type="text/javascript">
-                            function pageing(page) {
-                                document.readFrm.nowPage.value = page;
-                                document.readFrm.action = 'career.do?method=worknet';
-                                //document.readFrm.action='joblist.jsp';
-                                document.readFrm.submit();
-                            }
-
-                            function view(wantedAuthNo) {
-                                document.readFrm.wantedAuthNo.value = wantedAuthNo;
-                                document.readFrm.action = 'career.do?method=worknetView';
-
-                                document.readFrm.submit();
-                            }
-
-                            function block(value) {
-                                document.readFrm.nowPage.value = 5 * (value - 1) + 1;
-                                document.readFrm.submit();
-                            }
-                            </script>
-
-
-                            <script>
-                            $(document).ready(function() {
-                                        $('.onlyNumber').keyup(function(event) {
-
-                                            var inputVal = $(this).val();
-
-                                            var regId = /^[0-9]{0,200}$/;
-                                            if (!regId.test(inputVal)) {
-                                                alert('Enter only alphanumeric number.'); //영문과 숫자만 입력하세요.
-                                                $(this).val(inputVal.replace(/[^0-9]/gi, ''));
-                                                $(this).focus();
-                                                return false;
-                                            }
-                                            return true;
-
-                                        });
-                            </script>
                             <br><br><br>&nbsp;
                             <!-- 내용 끝 -->
-
-
-                            <form name="frm" id="frm" method="post">
-                                <input type="hidden" name="SCH_PAGE" id="SCH_PAGE" value="1">
-                                <input type="hidden" name="SCH_BBS_TYPE" id="SCH_BBS_TYPE" value="">
-                                <input type="hidden" name="SCH_JOB_TYPE" id="SCH_JOB_TYPE" value="">
-                                <input type="hidden" name="BBS_NO" id="BBS_NO" value="">
-                                <input type="hidden" name="DATA_FLAG" id="DATA_FLAG" value="">
-                                <input type="hidden" name="NOTICE_YN" id="NOTICE_YN" value="">
-                                <input type="hidden" name="CATEGORY" id="CATEGORY" value="centerinfo">
-                            </form>
-
-
                         </div>
                     </div>
                 </div>
