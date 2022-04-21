@@ -1338,3 +1338,27 @@ h4 {
 tbody tr td {
   font-size: 0.9em !important;
 }
+
+span.type1.type1_2 {
+  background: #0298e2;
+  border: 1px solid #006fa5;
+  color: #fff !important;
+  font-size: 13px;
+}
+
+span.type1.type1_3 {
+  background: #0272e2;
+  border: 1px solid #0272e2;
+  color: #fff !important;
+  font-size: 13px;
+}
+
+span.type3 {
+  color: #627ad0;
+  border: 1px solid #627ad0;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 0 9px;
+  margin-right: 4px;
+}
